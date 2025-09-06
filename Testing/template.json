@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": " Explain the research paper titled \"{paper_input}\". Explanation style : {style_input}. Explanation length : {length_input}. Use clear and concise language to ensure the explanation is easy to understand. If certain information is not available, respond with \"Information not available\" instead of making assumptions. Ensure it is alligned with the selected style and length. Make sure it doesn't exceed the length mentioned.\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
